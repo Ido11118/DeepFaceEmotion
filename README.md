@@ -1,6 +1,8 @@
 # DeepFaceEmotion 🎭  
 A deep learning project for facial emotion recognition using the FER-2013 dataset and personal real-world images.
 
+---
+
 ## 🔍 Overview  
 This project explores different machine learning and deep learning techniques for classifying facial expressions into seven basic emotions:
 
@@ -24,11 +26,11 @@ It contains **35,887 grayscale facial images (48x48 pixels)**, labeled with one 
 
 ## 🧠 Models Compared  
 
-| Model                 | Preprocessing              | Feature Extraction      |
-|----------------------|----------------------------|-------------------------|
-| SVM                  | HOG                        | Hand-crafted features   |
-| CNN                  | Raw / Sobel-filtered       | Learned via Conv layers |
-| EfficientNet (B0)    | RGB + Resize to 224x224    | Transfer learning       |
+| Model              | Preprocessing              | Feature Extraction      |
+|-------------------|----------------------------|-------------------------|
+| SVM               | HOG                        | Hand-crafted features   |
+| CNN               | Raw / Sobel-filtered       | Learned via Conv layers |
+| EfficientNet (B0) | RGB + Resize to 224x224    | Transfer learning       |
 
 ---
 
@@ -47,7 +49,7 @@ Each model is evaluated using:
 - 📊 Exploratory Data Analysis (EDA)
 - 🧼 Anomaly Detection: corrupted, duplicate, low-quality images
 - ⚙️ Preprocessing: HOG, grayscale normalization, Sobel filtering
-- 🧪 SVM grid/randomized search for hyperparameters
+- 🧪 SVM hyperparameter tuning (GridSearch & RandomizedSearch)
 - 📦 Transfer Learning with EfficientNet
 - 📷 Prediction on real-world personal images (with face detection)
 
@@ -88,7 +90,7 @@ To run the project on Google Colab:
 ```bash
 DeepFaceEmotion/
 │
-├── DeepFaceEmotion.ipynb       # Main Colab notebook
-├── emotion photos/             # Folder for real-world test images
-└── README.md                  # Project documentation
-
+├── DeepFaceEmotion.ipynb         # Main Colab notebook
+├── emotion photos/               # Folder for real-world test images
+├── AI_Emotion_Recognition_theory.pdf  # (Optional) in Hebrew
+└── README.md                     # Project documentation
