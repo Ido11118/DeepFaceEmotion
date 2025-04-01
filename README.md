@@ -90,7 +90,7 @@ To run the project on Google Colab:
 ```bash
 DeepFaceEmotion/
 │
-├── DeepFaceEmotion.ipynb         # Main Colab notebook
+├── Deep_Face_Emotion.ipynb         # Main Colab notebook
 ├── emotion photos/               # Folder for real-world test images
 ├── AI_Emotion_Recognition_theory.pdf  # (Optional) in Hebrew
 └── README.md                     # Project documentation
