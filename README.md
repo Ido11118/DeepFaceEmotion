@@ -94,3 +94,11 @@ DeepFaceEmotion/
 ├── emotion photos/               # Folder for real-world test images
 ├── AI_Emotion_Recognition_theory.pdf  # (Optional) in Hebrew
 └── README.md                     # Project documentation
+
+---
+
+## 👤 Author
+
+Ido  
+GitHub: [@Ido11118](https://github.com/Ido11118)
+
